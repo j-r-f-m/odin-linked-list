@@ -1,10 +1,23 @@
-import { Node, LinkedList } from "./linkedList";
+// does not work
 
-const testNode = Node("hello", 2);
-console.log(testNode);
+import { LinkedList } from "./linkedList.js";
 
-const testList = LinkedList().create();
+// import constructor from different file
 
-console.log(testList);
+// // create empty list
+// const newList = new LinkedList();
+// console.log("create linked list:");
+// console.log(newList);
 
-testList;
+// // add items to list
+// newList.append("new one");
+// newList.append("2nd");
+// newList.append("3nd");
+// newList.append("4th");
+// // newList.prepend("one");
+// console.log("list after change");
+// console.log(newList);
+// console.log("head after change");
+// console.log(`head: `);
+// console.log(newList.headOfList());
+// console.log(`Size of list: ${newList.size()}`);
